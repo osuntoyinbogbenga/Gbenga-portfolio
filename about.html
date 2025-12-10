@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Gbenga Osuntoyinbo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>About Me</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="hobbies.html">Hobbies</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<button class="back-btn" onclick="goBack()">← Back</button>
+
+<section>
+    <h2>Who I Am</h2>
+    <p>
+        My name is <strong>Gbenga Osuntoyinbo</strong>, I am 19 years old, and I’m studying Computer Science.  
+        I started learning programming because I love building things—especially apps and websites.
+    </p>
+
+    <p>
+        Outside programming, I enjoy art, music, and improving my social skills.
+    </p>
+</section>
+
+<footer>
+    <p>© 2025 Gbenga Osuntoyinbo</p>
+</footer>
+
+<script>
+function goBack() {
+    if (history.length > 1) {
+        history.back();
+    } else {
+        window.location.href = "index.html";
+    }
+}
+</script>
+
+</body>
+</html>
