@@ -1,0 +1,46 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Gbenga Osuntoyinbo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Contact Me</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="hobbies.html">Hobbies</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<button class="back-btn" onclick="goBack()">← Back</button>
+
+<section>
+    <h2>Get in Touch</h2>
+    <p>Email me at:</p>
+    <p>
+        <strong><a href="mailto:o_gbenga_akinjide@cu.edu.ge">o_gbenga_akinjide@cu.edu.ge</a></strong>
+    </p>
+</section>
+
+<footer>
+    <p>© 2025 Gbenga Osuntoyinbo</p>
+</footer>
+
+<script>
+function goBack() {
+    if (history.length > 1) {
+        history.back();
+    } else {
+        window.location.href = "index.html";
+    }
+}
+</script>
+
+</body>
+</html>
