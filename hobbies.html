@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobbies - Gbenga Osuntoyinbo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>My Hobbies</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="hobbies.html">Hobbies</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<button class="back-btn" onclick="goBack()">← Back</button>
+
+<section>
+    <h2>Things I Enjoy</h2>
+    <ul>
+        <li>Gaming</li>
+        <li>Art</li>
+        <li>Coding</li>
+        <li>Running</li>
+        <li>Cycling</li>
+        <li>Personal Development</li>
+    </ul>
+</section>
+
+<footer>
+    <p>© 2025 Gbenga Osuntoyinbo</p>
+</footer>
+
+<script>
+function goBack() {
+    if (history.length > 1) {
+        history.back();
+    } else {
+        window.location.href = "index.html";
+    }
+}
+</script>
+
+</body>
+</html>
